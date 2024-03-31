@@ -5,6 +5,7 @@ import jwt from "jsonwebtoken";
 
 
 //REGISTRATION USER AUTH
+//REGISTRATION USER AUTH
 export const register = async(req,res,next)=>{
     try {
         const saltRounds = 10;
